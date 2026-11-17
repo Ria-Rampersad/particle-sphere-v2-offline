@@ -3,6 +3,7 @@
 ### Hand-Tracked 3D Particle Visualiser
 
 [![Offline Ready](https://img.shields.io/badge/Offline-100%25%20Self--Contained-brightgreen.svg)]()
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2ea44f.svg)](https://ria-rampersad.github.io/particle-sphere-v2-offline/)
 [![WebGL](https://img.shields.io/badge/Render-WebGL%20%2B%202D%20Canvas-blue.svg)]()
 [![MediaPipe](https://img.shields.io/badge/AI-MediaPipe%20Hands%20v0.4-orange.svg)]()
 [![Wasm SIMD](https://img.shields.io/badge/WebAssembly-SIMD%20Enabled-purple.svg)]()
@@ -55,9 +56,13 @@ The handbook covers mathematical derivations, Fibonacci point generation, gestur
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run & Try It Out
 
-### Option 1: Direct File Launch (No Web Server Required)
+### Option 1: Live Web Demo (GitHub Pages)
+Test the app instantly in your browser:
+👉 **[Launch Particle Sphere 2.0 on GitHub Pages](https://ria-rampersad.github.io/particle-sphere-v2-offline/)**
+
+### Option 2: Direct File Launch (No Web Server Required / Fully Offline)
 Simply double-click:
 ```bash
 index.html
@@ -66,7 +71,7 @@ particle-sphere-v2-offline.html
 ```
 Open in any modern browser supporting WebAssembly SIMD (Google Chrome, Microsoft Edge, Brave, etc.). When prompted, allow camera access.
 
-### Option 2: Local HTTP Server
+### Option 3: Local HTTP Server
 ```bash
 # Python
 python -m http.server 8080
